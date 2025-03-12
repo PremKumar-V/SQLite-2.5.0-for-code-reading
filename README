@@ -6,13 +6,15 @@ For SQLite 2.5.0, it has a core code base less than 20000 LOC in ANSI C which is
 I digged into historical versions of SQLite, and fixed this version against GCC on MacOS 10.13 and Debian 8.
 
 $sloccount SQLite-2.5.0-for-code-reading
-SLOC	Directory	SLOC-by-Language (Sorted)
-20914   src_top_dir     ansic=19895,yacc=584,tcl=435
-6831    top_dir         sh=6831
-6363    www             tcl=6363
-4051    tool            ansic=3606,tcl=372,awk=73
-156     test            tcl=156
-0       doc             (none)
+
+| SLOC  | Directory   | SLOC-by-Language (Sorted)       |
+|-------|------------|---------------------------------|
+| 20914 | src_top_dir | ansic=19895, yacc=584, tcl=435  |
+| 6831  | top_dir     | sh=6831                         |
+| 6363  | www         | tcl=6363                        |
+| 4051  | tool        | ansic=3606, tcl=372, awk=73     |
+| 156   | test        | tcl=156                         |
+| 0     | doc         | (none)                          |
 
 
     SQLite: An SQL Database Engine in a C Library
@@ -25,11 +27,11 @@ script found at the root of the source tree.  Then run "make".
 
 For example:
 
-    tar xzf sqlite.tar.gz    ;#  Unpack the source tree into "sqlite"
-    mkdir bld                ;#  Build will occur in a sibling directory
-    cd bld                   ;#  Change to the build directory
-    ../sqlite/configure      ;#  Run the configure script
-    make                     ;#  Run the makefile.
+    tar xzf sqlite.tar.gz    #  Unpack the source tree into "sqlite"
+    mkdir bld                #  Build will occur in a sibling directory
+    cd bld                   #  Change to the build directory
+    ../sqlite/configure      #  Run the configure script
+    make                     #  Run the makefile.
 
 The configure script uses autoconf 2.50 and libtool.  If the configure
 script does not work out for you, there is a generic makefile named
@@ -43,6 +45,5 @@ script at the top-level of the source tree.
 
 Contacts:
 
-   http://www.hwaci.com/sw/sqlite/
-   http://groups.yahoo.com/group/sqlite/
-   drh@hwaci.com
+   - [SQLite Website](http://www.hwaci.com/sw/sqlite/)
+   - [Yahoo Website](http://groups.yahoo.com/group/sqlite/drh@hwaci.com)
